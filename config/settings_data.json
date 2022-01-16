@@ -13,6 +13,8 @@
     "buttons_border_thickness": 0,
     "buttons_border_opacity": 55,
     "buttons_radius": 40,
+    "text_boxes_radius": 40,
+    "badge_position": "top left",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
