@@ -44,36 +44,44 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "31f95b82-4e35-495c-b92e-d10aa28fb03a": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Site links",
+              "menu": "site-links"
+            }
+          },
+          "3bc32356-9277-41d1-b3e4-27bc941ecb03": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Policy links",
+              "menu": "policy-links"
+            }
+          },
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "Support links",
               "menu": "footer"
-            }
-          },
-          "footer-1": {
-            "type": "text",
-            "settings": {
-              "heading": "Heading",
-              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
             }
           }
         },
         "block_order": [
-          "footer-0",
-          "footer-1"
+          "31f95b82-4e35-495c-b92e-d10aa28fb03a",
+          "3bc32356-9277-41d1-b3e4-27bc941ecb03",
+          "footer-0"
         ],
         "settings": {
-          "color_scheme": "background-1",
-          "newsletter_enable": true,
+          "color_scheme": "background-2",
+          "newsletter_enable": false,
           "newsletter_heading": "Subscribe to our emails",
           "show_social": false,
-          "enable_country_selector": true,
-          "enable_language_selector": true,
+          "enable_country_selector": false,
+          "enable_language_selector": false,
           "payment_enable": true,
           "margin_top": 0,
-          "padding_top": 36,
-          "padding_bottom": 36
+          "padding_top": 24,
+          "padding_bottom": 20
         }
       }
     },
