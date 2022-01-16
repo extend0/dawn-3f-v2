@@ -22,7 +22,7 @@
         "1f940259-24cf-412c-b40d-0f8528577dfc": {
           "type": "text",
           "settings": {
-            "text": "Text block{{ product.metafields.my_fields.quantity_discount_text_.value }}",
+            "text": "{{ product.metafields.my_fields.quantity_discount_text_.value }}",
             "text_style": "body"
           }
         },
