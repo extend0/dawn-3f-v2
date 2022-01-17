@@ -142,11 +142,51 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1642388674242a7d27": {
+      "type": "collage",
+      "blocks": {
+        "37e5cb3d-c026-4b71-a4c8-e63511aac402": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHITE-WHEEL-TOUR-_KELVINS_-HD720P_2_990x_cd4d9475-28d9-4166-b111-6d981950895d.jpg",
+            "image_padding": false
+          }
+        },
+        "370cc7a5-2097-4229-a573-5f0da793b63e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AdobeStock_305479296_Preview_copy.jpg",
+            "image_padding": false
+          }
+        },
+        "24cba4bc-cd66-4eee-a761-90f53b0e4ee3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LIFX-color-bulbs-living-room-hero_570x_990x_92db4f82-6b6b-4dde-be79-e0424aecd636.jpg",
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "37e5cb3d-c026-4b71-a4c8-e63511aac402",
+        "370cc7a5-2097-4229-a573-5f0da793b63e",
+        "24cba4bc-cd66-4eee-a761-90f53b0e4ee3"
+      ],
+      "settings": {
+        "heading": "",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "product-recommendations",
-    "164238814145711024"
+    "164238814145711024",
+    "1642388674242a7d27"
   ]
 }
