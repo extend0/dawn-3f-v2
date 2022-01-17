@@ -130,10 +130,11 @@
         "16423881413219375c-1"
       ],
       "settings": {
+        "image": "{{ product.metafields.my_fields.feature_1_image.value }}",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
