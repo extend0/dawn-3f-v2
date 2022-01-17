@@ -50,6 +50,24 @@
             "content": "<p>{{ product.metafields.my_fields.materials_text | metafield_tag }}<\/p>",
             "page": ""
           }
+        },
+        "da560ba7-eb7d-4f95-9530-0643c466f683": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Dimensions",
+            "icon": "ruler",
+            "content": "<p>Width: {{ product.metafields.my_fields.width | metafield_tag }} <br\/>Height: {{ product.metafields.my_fields.height | metafield_tag }}<br\/>{{ product.metafields.my_fields.dimensions_title_cord_length_.value }} {{ product.metafields.my_fields.cord_length | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "2608422e-ebe9-4c51-89f6-3338721d722d": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Care Instructions",
+            "icon": "heart",
+            "content": "<p>{{ product.metafields.descriptors.care_guide | metafield_tag }}<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -60,7 +78,9 @@
         "1f940259-24cf-412c-b40d-0f8528577dfc",
         "buy_buttons",
         "description",
-        "3b8fcb79-6855-490e-a44b-072171a1e7f0"
+        "3b8fcb79-6855-490e-a44b-072171a1e7f0",
+        "da560ba7-eb7d-4f95-9530-0643c466f683",
+        "2608422e-ebe9-4c51-89f6-3338721d722d"
       ],
       "settings": {
         "enable_sticky_info": true,
