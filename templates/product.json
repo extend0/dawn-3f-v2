@@ -45,9 +45,9 @@
         "3b8fcb79-6855-490e-a44b-072171a1e7f0": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "content": "",
+            "heading": "Materials + Guarantee",
+            "icon": "leather",
+            "content": "<p>{{ product.metafields.my_fields.materials_text | metafield_tag }}<\/p>",
             "page": ""
           }
         }
