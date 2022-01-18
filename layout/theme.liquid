@@ -257,5 +257,10 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-  </body>
+  
+{% comment %}Super Bar snippet start{% endcomment %}
+<div id="sabhq-root"></div>
+<script>function superbarLoader(e,t){if(e){var a=document.createElement("script"),d=!1,n=document.getElementsByTagName("head")[0];a.onload=a.onreadystatechange=function(){d||this.readyState&&"loaded"!==this.readyState&&"complete"!==this.readyState||(d=!0,t(),a.onload=a.onreadystatechange=null,n&&a.parentNode&&n.removeChild(a))},a.setAttribute("type","text/javascript"),a.setAttribute("src",e),n.appendChild(a)}};superbarLoader("https://cdn.jsdelivr.net/gh/apphq/superbar-dist@master/superbar.js?"+(new Date).getTime(), function() {window.SUPERBAR_INIT({{ product | json }}, '{{ shop.money_format }}', '{{ product.selected_or_first_available_variant.id }}', {{ cart | json }}, "{{ template }}")})</script>
+{% comment %}Super Bar snippet end{% endcomment %}
+</body>
 </html>
