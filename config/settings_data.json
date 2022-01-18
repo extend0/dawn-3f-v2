@@ -15,6 +15,7 @@
     "buttons_radius": 40,
     "text_boxes_radius": 40,
     "badge_position": "top left",
+    "favicon": "shopify:\/\/shop_images\/1Artboard_1_9x2_4da8937d-92b2-4135-a289-977c6a3463fb.png",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
