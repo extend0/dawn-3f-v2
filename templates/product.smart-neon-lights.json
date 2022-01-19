@@ -185,6 +185,7 @@
         "1642389013d4f9e18e-0": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/ifttt-badges.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -194,8 +195,9 @@
         "1642389013d4f9e18e-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/apple-siri-shortcuts.png",
+            "title": "",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -203,8 +205,9 @@
         "1642389013d4f9e18e-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/google-badges.png",
+            "title": "",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -212,8 +215,9 @@
         "db4c50f2-5d85-438c-a4bd-fd67e4d39cb7": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/alexa-badges.png",
+            "title": "",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.<\/p>",
             "link_label": "",
             "link": ""
           }
