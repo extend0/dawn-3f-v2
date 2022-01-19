@@ -187,7 +187,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/ifttt-badges.png",
             "title": "",
-            "text": "",
+            "text": "<p>If <strong>Zoom Meeting <\/strong>Starts, then <strong>Turn on Neon Sign<\/strong><\/p>",
             "link_label": "",
             "link": ""
           }
@@ -197,7 +197,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/apple-siri-shortcuts.png",
             "title": "",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.<\/p>",
+            "text": "<p>\"Hey Siri, dim the Neon lights to 50%.\"<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -207,7 +207,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/google-badges.png",
             "title": "",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post<\/p>",
+            "text": "<p>\"Hey Google, turn on Neon Dream.\"<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -217,7 +217,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/alexa-badges.png",
             "title": "",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.<\/p>",
+            "text": "<p>\"Hey Alexa, turn off all the lights.\"<\/p>",
             "link_label": "",
             "link": ""
           }
