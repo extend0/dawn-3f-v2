@@ -1,0 +1,311 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "52fad3da-04c1-4820-9daa-55d72caa873a": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "1f940259-24cf-412c-b40d-0f8528577dfc": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.my_fields.quantity_discount_text_.value }}",
+            "text_style": "body"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "3b8fcb79-6855-490e-a44b-072171a1e7f0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Materials + Guarantee",
+            "icon": "leather",
+            "content": "<p>{{ product.metafields.my_fields.materials_text | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "da560ba7-eb7d-4f95-9530-0643c466f683": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Dimensions",
+            "icon": "ruler",
+            "content": "<p>Width: {{ product.metafields.my_fields.width | metafield_tag }} <br\/>Height: {{ product.metafields.my_fields.height | metafield_tag }}<br\/>{{ product.metafields.my_fields.dimensions_title_cord_length_.value }} {{ product.metafields.my_fields.cord_length | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "2608422e-ebe9-4c51-89f6-3338721d722d": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Care Instructions",
+            "icon": "heart",
+            "content": "<p>{{ product.metafields.descriptors.care_guide | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "52fad3da-04c1-4820-9daa-55d72caa873a",
+        "price",
+        "variant_picker",
+        "1f940259-24cf-412c-b40d-0f8528577dfc",
+        "buy_buttons",
+        "description",
+        "3b8fcb79-6855-490e-a44b-072171a1e7f0",
+        "da560ba7-eb7d-4f95-9530-0643c466f683",
+        "2608422e-ebe9-4c51-89f6-3338721d722d"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "gallery_layout": "stacked",
+        "media_size": "large",
+        "mobile_thumbnails": "hide",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "164238814145711024": {
+      "type": "image-with-text",
+      "blocks": {
+        "16423881413219375c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.metafields.my_fields.feature_1_title.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "16423881413219375c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.my_fields.feature_1_description | metafield_tag }}<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "16423881413219375c-0",
+        "16423881413219375c-1"
+      ],
+      "settings": {
+        "image": "{{ product.metafields.my_fields.feature_1_image.value }}",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1642390248f1675930": {
+      "type": "image-with-text",
+      "blocks": {
+        "16423902484b6662c5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.metafields.my_fields.feature_2_title.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "16423902484b6662c5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.my_fields.feature_2_description | metafield_tag }}<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "16423902484b6662c5-0",
+        "16423902484b6662c5-1"
+      ],
+      "settings": {
+        "image": "{{ product.metafields.my_fields.feature_2_image.value }}",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "164238901332407e74": {
+      "type": "multicolumn",
+      "blocks": {
+        "1642389013d4f9e18e-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ifttt-badges.png",
+            "title": "",
+            "text": "<p>If <strong>Zoom Meeting <\/strong>Starts, then <strong>Turn on Neon Sign<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1642389013d4f9e18e-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/apple-siri-shortcuts.png",
+            "title": "",
+            "text": "<p>\"Hey Siri, dim the Neon lights to 50%.\"<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1642389013d4f9e18e-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/google-badges.png",
+            "title": "",
+            "text": "<p>\"Hey Google, turn on Neon Dream.\"<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "db4c50f2-5d85-438c-a4bd-fd67e4d39cb7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/alexa-badges.png",
+            "title": "",
+            "text": "<p>\"Hey Alexa, turn off all the lights.\"<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1642389013d4f9e18e-0",
+        "1642389013d4f9e18e-1",
+        "1642389013d4f9e18e-2",
+        "db4c50f2-5d85-438c-a4bd-fd67e4d39cb7"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true,
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "1642388674242a7d27": {
+      "type": "collage",
+      "blocks": {
+        "37e5cb3d-c026-4b71-a4c8-e63511aac402": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHITE-WHEEL-TOUR-_KELVINS_-HD720P_2_990x_cd4d9475-28d9-4166-b111-6d981950895d.jpg",
+            "image_padding": false
+          }
+        },
+        "370cc7a5-2097-4229-a573-5f0da793b63e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AdobeStock_305479296_Preview_copy.jpg",
+            "image_padding": false
+          }
+        },
+        "24cba4bc-cd66-4eee-a761-90f53b0e4ee3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LIFX-color-bulbs-living-room-hero_570x_990x_92db4f82-6b6b-4dde-be79-e0424aecd636.jpg",
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "37e5cb3d-c026-4b71-a4c8-e63511aac402",
+        "370cc7a5-2097-4229-a573-5f0da793b63e",
+        "24cba4bc-cd66-4eee-a761-90f53b0e4ee3"
+      ],
+      "settings": {
+        "heading": "",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16423888607ee5d5ab": {
+      "type": "apps",
+      "blocks": {
+        "04522164-33af-44d6-b555-670c0c871e6c": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "04522164-33af-44d6-b555-670c0c871e6c"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "164238814145711024",
+    "1642390248f1675930",
+    "164238901332407e74",
+    "1642388674242a7d27",
+    "16423888607ee5d5ab"
+  ]
+}
