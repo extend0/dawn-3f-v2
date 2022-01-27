@@ -9,7 +9,7 @@
     "colors_background_2": "#F3F3F3",
     "type_header_font": "open_sans_n4",
     "type_body_font": "assistant_n4",
-    "page_width": "1200",
+    "page_width": 1200,
     "buttons_border_thickness": 0,
     "buttons_border_opacity": 55,
     "buttons_radius": 40,
@@ -23,7 +23,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Free Shipping on All Orders & Free Returns ❤️",
+              "text": "Free Shipping on All Orders & Easy Returns ❤️",
               "color_scheme": "background-2",
               "link": ""
             }
