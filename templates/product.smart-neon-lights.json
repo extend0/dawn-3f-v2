@@ -143,42 +143,6 @@
         "padding_bottom": 36
       }
     },
-    "1642390248f1675930": {
-      "type": "image-with-text",
-      "blocks": {
-        "16423902484b6662c5-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "{{ product.metafields.my_fields.feature_2_title.value }}",
-            "heading_size": "h1"
-          }
-        },
-        "16423902484b6662c5-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>{{ product.metafields.my_fields.feature_2_description | metafield_tag }}<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "16423902484b6662c5-0",
-        "16423902484b6662c5-1"
-      ],
-      "settings": {
-        "image": "{{ product.metafields.my_fields.feature_2_image.value }}",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "164238901332407e74": {
       "type": "multicolumn",
       "blocks": {
@@ -243,41 +207,38 @@
         "padding_bottom": 36
       }
     },
-    "1642388674242a7d27": {
-      "type": "collage",
+    "1642390248f1675930": {
+      "type": "image-with-text",
       "blocks": {
-        "37e5cb3d-c026-4b71-a4c8-e63511aac402": {
-          "type": "image",
+        "16423902484b6662c5-0": {
+          "type": "heading",
           "settings": {
-            "image": "shopify:\/\/shop_images\/WHITE-WHEEL-TOUR-_KELVINS_-HD720P_2_990x_cd4d9475-28d9-4166-b111-6d981950895d.jpg",
-            "image_padding": false
+            "heading": "{{ product.metafields.my_fields.feature_2_title.value }}",
+            "heading_size": "h1"
           }
         },
-        "370cc7a5-2097-4229-a573-5f0da793b63e": {
-          "type": "image",
+        "16423902484b6662c5-1": {
+          "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/AdobeStock_305479296_Preview_copy.jpg",
-            "image_padding": false
-          }
-        },
-        "24cba4bc-cd66-4eee-a761-90f53b0e4ee3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/LIFX-color-bulbs-living-room-hero_570x_990x_92db4f82-6b6b-4dde-be79-e0424aecd636.jpg",
-            "image_padding": false
+            "text": "<p>{{ product.metafields.my_fields.feature_2_description | metafield_tag }}<\/p>",
+            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "37e5cb3d-c026-4b71-a4c8-e63511aac402",
-        "370cc7a5-2097-4229-a573-5f0da793b63e",
-        "24cba4bc-cd66-4eee-a761-90f53b0e4ee3"
+        "16423902484b6662c5-0",
+        "16423902484b6662c5-1"
       ],
       "settings": {
-        "heading": "",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
+        "image": "{{ product.metafields.my_fields.feature_2_image.value }}",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
         "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -303,9 +264,8 @@
     "main",
     "product-recommendations",
     "164238814145711024",
-    "1642390248f1675930",
     "164238901332407e74",
-    "1642388674242a7d27",
+    "1642390248f1675930",
     "16423888607ee5d5ab"
   ]
 }
