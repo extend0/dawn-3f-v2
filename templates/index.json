@@ -141,8 +141,8 @@
         "column1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "",
+            "text": "<p>⭐⭐⭐⭐⭐<br\/>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.kljlk<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -172,13 +172,13 @@
         "column3"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "",
         "image_width": "full",
         "image_ratio": "adapt",
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
+        "button_label": "See All 100+ Reviews",
+        "button_link": "shopify:\/\/products\/smart-light-test",
         "swipe_on_mobile": true,
         "color_scheme": "background-1",
         "padding_top": 36,
