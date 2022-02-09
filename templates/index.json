@@ -99,35 +99,35 @@
     "collage": {
       "type": "collage",
       "blocks": {
-        "video": {
-          "type": "video",
+        "e26f3fb4-43b7-403c-9e34-6fb662a30843": {
+          "type": "image",
           "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video",
+            "image": "shopify:\/\/shop_images\/WHITE-WHEEL-TOUR-_KELVINS_-HD720P_2_990x_cd4d9475-28d9-4166-b111-6d981950895d.jpg",
             "image_padding": false
           }
         },
-        "product": {
-          "type": "product",
+        "a4b5df34-de6a-4682-a681-43ca95ac719a": {
+          "type": "image",
           "settings": {
-            "product": "",
-            "second_image": false
+            "image": "shopify:\/\/shop_images\/LIFX-color-bulbs-living-room-hero_570x_990x_92db4f82-6b6b-4dde-be79-e0424aecd636.jpg",
+            "image_padding": false
           }
         },
-        "collection": {
-          "type": "collection",
+        "5d31b9fc-a641-4bf6-97e3-fcd75c3ade3d": {
+          "type": "image",
           "settings": {
-            "collection": ""
+            "image": "shopify:\/\/shop_images\/AdobeStock_305479296_Preview_copy.jpg",
+            "image_padding": false
           }
         }
       },
       "block_order": [
-        "video",
-        "product",
-        "collection"
+        "e26f3fb4-43b7-403c-9e34-6fb662a30843",
+        "a4b5df34-de6a-4682-a681-43ca95ac719a",
+        "5d31b9fc-a641-4bf6-97e3-fcd75c3ade3d"
       ],
       "settings": {
-        "heading": "Multimedia collage",
+        "heading": "",
         "desktop_layout": "left",
         "mobile_layout": "collage",
         "color_scheme": "background-1",
@@ -179,7 +179,7 @@
         "background_style": "primary",
         "button_label": "Button label",
         "button_link": "",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
