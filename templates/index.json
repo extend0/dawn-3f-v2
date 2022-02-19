@@ -66,6 +66,7 @@
         "title": "Featured products",
         "collection": "all",
         "products_to_show": 8,
+        "columns_desktop": 4,
         "color_scheme": "background-1",
         "show_view_all": false,
         "swipe_on_mobile": false,
@@ -153,9 +154,10 @@
         "column3"
       ],
       "settings": {
-        "title": "Pushing 🅿",
-        "image_width": "third",
+        "title": "lkjlk",
+        "image_width": "full",
         "image_ratio": "adapt",
+        "columns_desktop": 4,
         "column_alignment": "center",
         "background_style": "primary",
         "button_label": "See All 100+ Reviews",
